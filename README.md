@@ -61,7 +61,7 @@ Shows a more creative analysis with:
 - KPIs for customer retention trends.
 - Visualizations for insights beyond the legacy report.
 
-![Demo Report](./PowerBi_Report_2.png)
+![Demo Report](./PowerBI_Report_2.png)
 
 ---
 
