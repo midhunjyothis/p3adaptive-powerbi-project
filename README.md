@@ -4,7 +4,7 @@ This project is a simulated consulting assignment provided by **P3 Adaptive**, d
 
 ---
 
-## 📊 Problem Statement
+## Problem Statement
 
 P3 Adaptive provided anonymized sales and customer data along with a legacy customer return report. The task was to:
 - Build a **Power BI data model** following star-schema best practices.
@@ -14,7 +14,7 @@ P3 Adaptive provided anonymized sales and customer data along with a legacy cust
 
 ---
 
-## 🧱 Data Model Overview
+## Data Model Overview
 
 A clean **star-schema model** was created, consisting of:
 - **Fact Table**: `Sales` – transactional order data.
@@ -22,11 +22,11 @@ A clean **star-schema model** was created, consisting of:
   - `Customers` – customer metadata and first purchase date.
   - `Date` – custom, fully marked date table with time-intelligence support.
 
-🔧 The model leverages a custom Date table generated using `CALENDAR()` and serves as the base for cohort analysis.
+ The model leverages a custom Date table generated using `CALENDAR()` and serves as the base for cohort analysis.
 
 ---
 
-## 📐 Key DAX Measures
+## Key DAX Measures
 
 ### Core Logic
 - `FP`: First purchase date per customer.
@@ -45,9 +45,9 @@ A clean **star-schema model** was created, consisting of:
 
 ---
 
-## 📈 Report Pages
+## Report Pages
 
-### 🔁 Legacy Report (Recreated as instructed)
+### Legacy Report (Recreated as instructed)
 Demonstrates:
 - Cohort-wise monthly return percentages.
 - Two benchmark measures:  
@@ -66,7 +66,7 @@ Shows a more creative analysis with:
 
 ---
 
-## 🏆 Result & Recommendation
+## Result & Recommendation
 
 After iterating with recruiter feedback:
 - **90-Day Return Rate** is recommended for acquisition effectiveness.
@@ -75,7 +75,7 @@ After iterating with recruiter feedback:
 
 ---
 
-## 🧠 Mistakes & Lessons Learned
+## Mistakes & Lessons Learned
 
 ### Mistakes
 - Used `CustomerKey` instead of `AltCustomerKey` for relationships.
@@ -89,7 +89,7 @@ After iterating with recruiter feedback:
 
 ---
 
-## 💾 How to Use This Project
+## How to Use This Project
 
 1. **Download the `.pbix` file** from this repo.
 2. Open it in **Power BI Desktop** (free).
@@ -98,7 +98,7 @@ After iterating with recruiter feedback:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Power BI Desktop
 - DAX
@@ -107,7 +107,11 @@ After iterating with recruiter feedback:
 
 ---
 
-## 💬 Acknowledgments
+## Acknowledgments
 
 This project was part of an application process with **P3 Adaptive**, who provided a thoughtful structure and collaborative feedback, treating this like a real consulting scenario.
+
+## Reuse disclaimer
+I do not authorize anyone to reuse this project or its contents for job applications or interview submissions, doing so constitutes unethical misrepresentation.
+
 
