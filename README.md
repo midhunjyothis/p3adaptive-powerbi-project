@@ -57,7 +57,7 @@ Demonstrates:
 
 ![Legacy Report](./images/PowerBI_Report_1.png)
 
-### 🚀 Demo Page
+### Demo Page
 Shows a more creative analysis with:
 - KPIs for customer retention trends.
 - Visualizations for insights beyond the legacy report.
