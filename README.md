@@ -55,14 +55,10 @@ Demonstrates:
   - **Returned in Following 3 Months**  
 - Grand totals included.
 
-![Legacy Report](./images/PowerBI_Report_1.png)
-
 ### Demo Page
 Shows a more creative analysis with:
 - KPIs for customer retention trends.
 - Visualizations for insights beyond the legacy report.
-
-![Demo Report](./images/PowerBI_Report_2.png)
 
 ---
 
